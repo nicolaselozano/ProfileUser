@@ -1,0 +1,63 @@
+.container {
+    background-color: rgb(83, 147, 147);
+    color: rgb(230, 247, 255);
+    padding: 5vh;
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container__LogoImg {
+    position: absolute;
+    background-color: rgb(240, 255, 255);
+    border-radius: 50%;
+    margin: 1% 4% 0 4%;
+    height: auto;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container__title {
+    font-size: 4vh;
+    margin-bottom: 2.5vh;
+    color: rgb(239, 247, 252);
+}
+
+.container__description {
+    font-size: 3vh;
+    line-height: 1.6;
+    margin-bottom: 2.5vh;
+}
+
+.container__contactList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container__link {
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.container__link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container__description {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .container__LogoImg {
+        margin: 4% 4% 0 4%;
+    }
+
+}

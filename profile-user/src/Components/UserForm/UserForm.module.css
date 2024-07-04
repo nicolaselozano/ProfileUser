@@ -1,0 +1,60 @@
+.container {
+    background-color: rgb(83, 147, 147);
+    color: rgb(230, 247, 255);
+    padding: 5vh;
+    margin: 10vh auto;
+    box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 150vh;
+    border-radius: 8px;
+}
+
+.container__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container__legend {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: rgb(239, 247, 252);
+}
+
+.container__label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.container__input,
+.container__textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+  
+.container__input:focus,
+.container__textarea:focus {
+    outline: none;
+    border-color: rgb(230, 247, 255);
+    box-shadow: 0 0 0.4vh rgb(230, 247, 255);
+}
+
+.container__button {
+    background-color: rgb(230, 247, 255);
+    color: rgb(83, 147, 147);
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container__button:hover {
+    background-color: rgb(200, 217, 255);
+}
