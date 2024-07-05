@@ -11,18 +11,18 @@ Para configurar y ejecutar el proyecto, sigue estos pasos:
 1. **Instalación de Dependencias**
 
 Ejecuta el siguiente comando por consola:
-npm install
-cd ProfileUser
-cd profile-user
+- npm install
+- cd ProfileUser
+- cd profile-user
 
 ### Inicio del Proyecto
 
 Para iniciar el servidor de desarrollo de Next.js, ejecuta el siguiente comando:
-npm run dev
+- npm run dev
 
 El proyecto se ejecutará en `http://localhost:3000` por defecto.
 
 ### Ejecución de Pruebas del Formulario
 
 Para ejecutar las pruebas del formulario implementadas en el proyecto, utiliza el siguiente comando:
-npm test
+- npm test
