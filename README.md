@@ -1,6 +1,26 @@
 # ProfileUser
-Perfil de usuario hecho con NextJs
 
-*Ejecutar en la consola raiz del proyecto : npm i
-*Para iniciar el proyecto ejecutar el comando por consola : npm run dev
-*Para Realizar los Test del Formulario ejecutar el comando por consola : npm test
+Este proyecto implementa un perfil de usuario utilizando Next.js.
+
+## Instrucciones de Uso
+
+### Instalación
+
+Para configurar y ejecutar el proyecto, sigue estos pasos:
+
+1. **Instalación de Dependencias**
+
+Ejecuta el siguiente comando por consola:
+npm install
+
+### Inicio del Proyecto
+
+Para iniciar el servidor de desarrollo de Next.js, ejecuta el siguiente comando:
+npm run dev
+
+El proyecto se ejecutará en `http://localhost:3000` por defecto.
+
+### Ejecución de Pruebas del Formulario
+
+Para ejecutar las pruebas del formulario implementadas en el proyecto, utiliza el siguiente comando:
+npm test
