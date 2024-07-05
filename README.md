@@ -12,6 +12,7 @@ Para configurar y ejecutar el proyecto, sigue estos pasos:
 
 Ejecuta el siguiente comando por consola:
 npm install
+cd ProfileUser
 
 ### Inicio del Proyecto
 
