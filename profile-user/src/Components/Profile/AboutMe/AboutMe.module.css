@@ -6,6 +6,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 3rem;
 }
+.container__welcoming_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.container__welcoming_img img {
+    margin: 1vh;
+    border-radius: 8px; 
+}
 
 .title {
     font-size: 2em;
