@@ -29,10 +29,12 @@ export const ValidateForm = (event:HTMLInputElement) => {
 
     const {name,value} =event;
 
+    
     if(ValidateActions[name]){
+        console.log(name,value);
         return ValidateActions[name](value);
     }else{
-        return true
+        return false;
     }
 
 }

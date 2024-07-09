@@ -42,21 +42,10 @@ const UserForm = () => {
         event.preventDefault();
 
         let isValid = true;
-        const newValidateError = { ...validateError };
 
-        for (const key in formData) {
-            if (ValidateForm[key]) {
-                const validation = ValidateForm[key](formData[key]);
-                if (validation !== true) {
-                    ValidateForm[key] = validation as string;
-                    isValid = false;
-                } else {
-                    ValidateForm[key] = "";
-                }
-            }
+        for (const key in validateError) {
+            if (validateError[key].length > 1) isValid = false; 
         }
-
-        setValidateError(newValidateError);
 
         if (isValid) {
             alert("Se Enviara el siguiente OBJ validado : "+JSON.stringify(formData));
