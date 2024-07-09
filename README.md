@@ -10,7 +10,7 @@ Para configurar y ejecutar el proyecto, sigue estos pasos:
 
 1. **Instalación de Dependencias**
 
-Ejecuta el siguiente comando por consola:
+Ejecute los siguiente comandos por consola despues de haber clonado el proyecto en su rama main:
 - npm install
 - cd ProfileUser
 - cd profile-user
